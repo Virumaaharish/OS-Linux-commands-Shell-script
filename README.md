@@ -43,7 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-
+file:///home/sec/Pictures/Screenshots/Screenshot%20from%202025-02-26%2011-33-24.png
 
 cat < file2
 ## OUTPUT
@@ -59,6 +59,12 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
+
+anil aggarwal
+barun sengupta
+c.k. shukla
+lalit chowdury
+s.n. dasgupta
 
 
 #Filters
