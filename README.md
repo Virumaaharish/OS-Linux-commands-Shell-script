@@ -123,10 +123,8 @@ cat newfile | grep -i "hello"
 
 ![image](https://github.com/user-attachments/assets/b87d7bf3-1bcd-4fb5-85c3-60a1e66e9309)
 
-
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
 
 ![image](https://github.com/user-attachments/assets/9d581bbf-d0c1-4ccd-8355-988377ce38cd)
 
@@ -134,7 +132,6 @@ grep -R ubuntu /etc
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/e92e9470-5a0b-40bf-95d4-25ea0d7a21bb)
-
 
 
 grep -w -n world newfile   
@@ -321,33 +318,26 @@ sed -n '2,4{s/^/$/;p}' file23
 sed -n '2,4{s/$/*/;p}' file23
 ## output
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/fe4adbe9-625f-4c82-ab48-c846ba90868b)
 
 
 #Sorting File content
 cat > file21
-```
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-``` 
+
+![image](https://github.com/user-attachments/assets/37562e80-6401-4d45-8934-6f147e4e9a3f)
+
 sort file21
 ## OUTPUT
 
 
 cat > file22
-```
-1001 | Ram | 10000 | HR
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-``` 
+
+![image](https://github.com/user-attachments/assets/d56f5465-2528-4e8e-9b48-bac2826ed41b)
+
 uniq file22
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/131f961d-6910-438c-80a3-388e0e94edf6)
 
 
 
@@ -355,34 +345,35 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ 
+ ![image](https://github.com/user-attachments/assets/d5495113-89e0-4f2a-b23a-035f922ccfbb)
+
 
 cat < urllist.txt
-```
-www. yahoo. com
-www. google. com
-www. mrcet.... com
-^d
- ```
+
+![image](https://github.com/user-attachments/assets/ebeacd13-d006-4b89-9fd2-18f7f492b557)
+
 cat > urllist.txt
-```
-www. yahoo. com
-www. google. com
-www. mrcet.... com
- ```
+
+![image](https://github.com/user-attachments/assets/ae5b9c5a-5af4-4621-9dfa-fab2d73d2ead)
+
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/a1ab3eb4-286e-4f60-9a88-3ff80b01dff5)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/530874ea-db69-4077-aaf0-423335d5e053)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/ab8d2c21-4ef5-4e7d-8f6d-d7080e55c2d9)
 
 mkdir backupdir
  
@@ -391,9 +382,12 @@ mv backup.tar backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/adf1f476-3321-4553-a18d-efa318763f25)
 
 tar -xvf backup.tar
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/b3d7de72-5e8d-4ac4-b6d3-d14561ad2a12)
 
 gzip backup.tar
 
